@@ -1,0 +1,25 @@
+* {
+	font-family: monospace;
+}
+
+.class1 {
+	color: black;
+	background-color: pink;
+	font-size: 20px;
+}
+
+#id1 {
+	color: blue;
+	font-size: 40px;
+}
+
+.cooler {
+	font-size: 30px;
+}
+
+#id2 {
+	color: black;
+	background-color: green;
+	font-weight: bold;
+	font-size: 30px;
+}
