@@ -5,15 +5,22 @@
 	font-weight: 100;
 }
 
+/* Header section
+ */
+ .textnocolor {
+	font-weight: 100;
+	font-size: 18px;
+}
+
+	/* Logo */
 header {
-	padding: 1em 7em;
+	padding: 70px 160px;
 	background-color: #1F2937;
 	color: #E5E7EB;
 }
 
 .logo {
 	font-size: 24px;
-	color: #F9FAF8;
 	font-weight: 900;
 }
 
@@ -24,11 +31,9 @@ header {
 	gap: 100px
 }
 
-
 .navigate .left {
 	flex: 1;
 }
-
 
 .navigate .right {
 	list-style-type: none;
@@ -36,54 +41,105 @@ header {
 	display: flex;
 }
 
-.nonunderline {
-	text-decoration: none;
+.navigate .right .textnocolor {
+	color: #E5E7EB;
 }
 
-.text1 {
+.nonunderline {
+	text-decoration: none;
+	color: inherit;
+}
+
+	/* Header and intro */
+
+.header {
 	font-size: 48px;
 	font-weight: bold;
 }
 
-.normaltext {
-	color: #F9FAF8;
-	font-weight: 100;
+.welcome .left .textnocolor {
+	padding-top: 20px;
 }
 
 .welcome {
 	display: flex;
-	padding-top: 7em;
 	justify-content: space-between;
-	gap: 4.5em
+	gap: 4.5em;
+	padding-top: 100px;
+
 }
 
 .welcome .left {
 	flex: 1;
 }
 
-.subheading {
+
+/* Box and fact */
+main {
+	min-height: 450px;
+	/* border: 1px solid #333;  */
+}
+.header2 {
 	text-align: center;
 	font-weight: 500;
-	margin: 75px;
+	padding: 40px;
+	padding-bottom: 70px;
 	color: #1F2937;
 	font-size: 35px;
+	/* border: 1px solid #333 */
+}
+
+.image130px{
+	/* border: 1px solid #333; */
+	min-width: 130px;
 }
 
 .container {
 	display: flex;
-
+	justify-content: space-evenly;
 }
 
-.normaltext2 {
-	color: #1F2937;
-}
-
-.container {
-	display: flex;
-	justify-content: space-around;
-}
-
-.subhcontainer {
+.content1, .content2, .content3, .content4 {
 	display: flex;
 	flex-direction: column;
+	align-content: center;
+}
+
+.box {
+	max-width: 150px;
+	margin-top: 30px;
+	text-align: center;
+	/* border: 1px solid #333; */
+}
+
+.quote {
+	background-color: #E5E7EB;
+	min-height: 400px;
+}
+
+.quote .sentence {
+	font-style: italic;
+	font-size: 36px;
+	padding: 100px 50px 0px 75px;
+}
+
+.quote .author {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: right;
+	padding: 0px 50px 0px 0px;
+}
+
+.copyright {
+	min-height: 50px;
+	background-color: #1F2937;
+	color: #E5E7EB
+}
+
+.copyright .textnocolor {
+	text-align: center;
+	border: 1px solid #333;
+	padding: 20px;
+
 }
