@@ -47,6 +47,14 @@ nav {
 	flex: 1;
 }
 
+.welcome {
+	display: flex;
+	justify-content: space-between;
+	gap: 4.5em;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+
 .welcome .left .header {
 	font-size: 60px;
 }
@@ -77,12 +85,7 @@ nav {
 	padding-top: 20px;
 }
 
-.welcome {
-	display: flex;
-	justify-content: space-between;
-	gap: 4.5em;
-	align-items: center;
-}
+
 
 .welcome .left {
 	flex: 1;
@@ -110,6 +113,7 @@ main {
 .container {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .content1, .content2, .content3, .content4 {
